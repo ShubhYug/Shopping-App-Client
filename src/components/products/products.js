@@ -37,8 +37,8 @@ function Products({
 
   const categoryOptions = ["men", "women", "kids"];
   const sortingOptions = [
-    { label: "L -- H", value: "price_low_to_high" },
-    { label: "H -- L", value: "price_high_to_low" },
+    { label: "Low to High", value: "price_low_to_high" },
+    { label: "High to Low", value: "price_high_to_low" },
   ];
 
   return (
